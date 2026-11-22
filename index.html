@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="km" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - Movie Contact / ទំនាក់ទំនងភាពយន្ត</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Holographic Scanline Overlay -->
+    <div id="holo-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-film spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">ទំនាក់ទំនងភាពយន្ត / Movie Contact</span></h1>
+        </div>
+        <div class="controls">
+            <button id="langToggleBtn" class="control-btn">🇰🇭 / EN</button>
+            <button id="themeToggleBtn" class="control-btn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Hero Section -->
+        <section class="hero-card">
+            <div class="badge">🎬 UNIVERSE HUOKAING THARA • FILM & SCREENING CONTACT</div>
+            <h2 class="km">ទំនាក់ទំនងផ្នែកភាពយន្ត ការចាក់បញ្ចាំង និងកិច្ចសហការផលិតកម្ម</h2>
+            <h2 class="en">Movie Division Contact, Screenings & Production Inquiries</h2>
+            <p class="km">
+                ទាក់ទងមកកាន់ផ្នែកភាពយន្តរបស់ <strong>UNIVERSE HUOKAING THARA Group</strong> ក្រោមការដឹកនាំរបស់ លោក <strong>ហួកាំង ថារ៉ា</strong> និងលោក <strong>សេង ឆាត</strong> រួមជាមួយការរួមចំណែកពីលោក <strong>ជອນ រតនៈ</strong> និងក្រុមអ្នកសរសេរកូដជំនាញ។
+            </p>
+            <p class="en">
+                Connect with the film division of <strong>UNIVERSE HUOKAING THARA Group</strong> under <strong>Mr. Huokaing Thara</strong> and <strong>Mr. Seng Chhat</strong>, with contributions from <strong>Mr. Chorn Rothanak</strong> and our elite programmers & developers.
+            </p>
+
+            <!-- Search & Filter Bar -->
+            <div class="search-filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="contactSearch" placeholder="ស្វែងរកផ្នែកទំនាក់ទំនង... / Search desks, screenings, casting, press...">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill-btn active" data-filter="all">All / ទាំងអស់</button>
+                    <button class="pill-btn" data-filter="screening">Screenings / ចាក់បញ្ចាំង</button>
+                    <button class="pill-btn" data-filter="production">Production / ផលិតកម្ម</button>
+                    <button class="pill-btn" data-filter="partners">Media & Partners / ដៃគូ</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Desks Grid -->
+        <section class="desks-section">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-headset"></i>
+                <span class="km">ការិយាល័យ និងផ្នែកទទួលសំណួរភាពយន្ត (Film Inquiry Desks)</span>
+                <span class="en">Film Inquiry Desks</span>
+            </h3>
+
+            <div class="desks-grid" id="desksGrid">
+
+                <!-- Desk 1 -->
+                <article class="desk-card featured" data-cat="screening">
+                    <div class="card-top">
+                        <span class="desk-code">DESK-01 • SCREENINGS</span>
+                        <span class="status-pill">ACTIVE</span>
+                    </div>
+                    <h4 class="km">ផ្នែកចាក់បញ្ចាំង និងកក់កន្លែងពិសេស</h4>
+                    <h4 class="en">Theatrical Screenings & Group Bookings</h4>
+                    <p class="km">ទទួលសំណួរអំពីកាលវិភាគចាក់បញ្ចាំងភាពយន្ត ការចាក់បញ្ចាំងជុំពិសេស និងការកក់ទស្សនាជាក្រុម។</p>
+                    <p class="en">Handles movie screening schedules, premiere showcases, and group viewing reservations.</p>
+                    <div class="card-footer">
+                        <span class="desk-meta"><i class="fa-solid fa-ticket"></i> Screenings</span>
+                        <button class="pick-topic-btn" data-topic="Theatrical Screenings & Group Bookings">
+                            <span class="km">ជ្រើសរើស</span> / <span class="en">Use Topic</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Desk 2 -->
+                <article class="desk-card" data-cat="production">
+                    <div class="card-top">
+                        <span class="desk-code">DESK-02 • PRODUCTION</span>
+                        <span class="status-pill">ACCEPTING</span>
+                    </div>
+                    <h4 class="km">ផ្នែកផលិតភាពយន្ត និងសាច់រឿង</h4>
+                    <h4 class="en">Film Production, Scripts & Talent</h4>
+                    <p class="km">សម្រាប់ការសហការផលិតភាពយន្ត សំណើសាច់រឿង ការសម្តែង និងការចូលរួមផលិតកម្ម។</p>
+                    <p class="en">For film production collaborations, story/script pitches, casting, and creative crew inquiries.</p>
+                    <div class="card-footer">
+                        <span class="desk-meta"><i class="fa-solid fa-clapperboard"></i> Production</span>
+                        <button class="pick-topic-btn" data-topic="Film Production, Scripts & Talent">
+                            <span class="km">ជ្រើសរើស</span> / <span class="en">Use Topic</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- Desk 3 -->
+                <article class="desk-card" data-cat="partners">
+                    <div class="card-top">
+                        <span class="desk-code">DESK-03 • MEDIA & BRANDS</span>
+                        <span class="status-pill">OPEN</span>
+                    </div>
+                    <h4 class="km">ផ្នែកសារព័ត៌មាន ទីផ្សារ និងដៃគូផ្សព្វផ្សាយ</h4>
+                    <h4 class="en">Press, Marketing & Sponsorships</h4>
+                    <p class="km">សម្រាប់សំណើផ្សព្វផ្សាយភាពយន្ត ការឧបត្ថម្ភ ការសម្ភាសន៍ និងកិច្ចសហការទីផ្សារ។</p>
+                    <p class="en">For film promotion campaigns, brand sponsorships, press kits, and marketing partnerships.</p>
+                    <div class="card-footer">
+                        <span class="desk-meta"><i class="fa-solid fa-bullhorn"></i> Media & Promo</span>
+                        <button class="pick-topic-btn" data-topic="Press, Marketing & Sponsorships">
+                            <span class="km">ជ្រើសរើស</span> / <span class="en">Use Topic</span>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="form-card" id="contactFormBox">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-envelope-open-text"></i>
+                <span class="km">ទម្រង់ផ្ញើសារទំនាក់ទំនងភាពយន្ត (Film Contact Form)</span>
+                <span class="en">Film Contact Form</span>
+            </h3>
+
+            <form id="filmContactForm" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullName">
+                            <span class="km">ឈ្មោះពេញ / Full Name *</span>
+                            <span class="en">Full Name *</span>
+                        </label>
+                        <input type="text" id="fullName" required placeholder="Your name / ឈ្មោះរបស់អ្នក">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactInfo">
+                            <span class="km">អ៊ីមែល ឬលេខទូរស័ព្ទ / Email or Phone *</span>
+                            <span class="en">Email or Phone *</span>
+                        </label>
+                        <input type="text" id="contactInfo" required placeholder="name@example.com or +855 ...">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="topicSelect">
+                            <span class="km">ប្រធានបទ / Inquiry Topic</span>
+                            <span class="en">Inquiry Topic</span>
+                        </label>
+                        <select id="topicSelect">
+                            <option value="Theatrical Screenings & Group Bookings">Theatrical Screenings & Group Bookings / ចាក់បញ្ចាំង</option>
+                            <option value="Film Production, Scripts & Talent">Film Production, Scripts & Talent / ផលិតកម្ម</option>
+                            <option value="Press, Marketing & Sponsorships">Press, Marketing & Sponsorships / ផ្សព្វផ្សាយ</option>
+                            <option value="General Film Question">General Film Question / សំណួរទូទៅ</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="movieTitle">
+                            <span class="km">ឈ្មោះភាពយន្ត / Film Title (Optional)</span>
+                            <span class="en">Film Title (Optional)</span>
+                        </label>
+                        <input type="text" id="movieTitle" placeholder="e.g., Chkuot Sne / ឆ្កួតស្នេហ៍">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="messageBox">
+                        <span class="km">ខ្លឹមសារសារ / Message *</span>
+                        <span class="en">Message *</span>
+                    </label>
+                    <textarea id="messageBox" rows="4" required placeholder="Describe your screening request, film collaboration, or question..."></textarea>
+                </div>
+
+                <button type="submit" class="control-btn submit-btn">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span class="km">ផ្ញើសំណួរភាពយន្ត</span> / <span class="en">Send Film Message</span>
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Receipt Modal -->
+    <div id="receiptModal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <span class="modal-badge">MESSAGE LOGGED</span>
+            <h3>Film Contact Confirmation</h3>
+            <div class="modal-body" id="receiptContent"></div>
+            <div class="modal-actions">
+                <button id="copyReceiptBtn" class="control-btn secondary-btn">
+                    <i class="fa-regular fa-copy"></i> Copy Ref
+                </button>
+                <button id="closeReceiptBtn" class="control-btn">
+                    <span class="km">បិទផ្ទាំង</span> / <span class="en">Close</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
